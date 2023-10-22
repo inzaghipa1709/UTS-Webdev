@@ -1,13 +1,13 @@
 // Simulate real-time temperature updates
 function updateTemperature() {
   setInterval(function () {
-    // Simulate temperature values between 20 and 30 degrees Celsius
-    let sensor1Value = Math.random() * 10 + 20;
-    let sensor2Value = Math.random() * 10 + 20;
-    let sensor3Value = Math.random() * 10 + 20;
-    let sensor4Value = Math.random() * 10 + 20;
-    let sensor5Value = Math.random() * 10 + 20;
-    let sensor6Value = Math.random() * 10 + 20;
+    // Simulate temperature values between 20 and 40 degrees Celsius
+    let sensor1Value = Math.random() * 20 + 20;
+    let sensor2Value = Math.random() * 20 + 20;
+    let sensor3Value = Math.random() * 20 + 20;
+    let sensor4Value = Math.random() * 20 + 20;
+    let sensor5Value = Math.random() * 20 + 20;
+    let sensor6Value = Math.random() * 20 + 20;
 
     // Update the circular progress bar and text for each sensor
     updateCircularProgressBar("sensor1Progress", sensor1Value, "1");
